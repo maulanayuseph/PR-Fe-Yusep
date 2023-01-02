@@ -10,6 +10,7 @@ const testimonialsData = [
     y: 150,
   },
   {
+    avatar: imgApi.avatar[1],
     name: 'John Doe',
     title: 'Company Dot Com',
     text: 'Vestibulum faucibus eget erat eget pretium. Donec commodo convallis ligula.',
@@ -17,6 +18,7 @@ const testimonialsData = [
     y: 100,
   },
   {
+    avatar: imgApi.avatar[2],
     name: 'John Doe',
     title: 'Company Dot Com',
     text: 'Vestibulum faucibus eget erat eget pretium. Donec commodo convallis ligula.',
@@ -28,8 +30,8 @@ const testimonialsData = [
     name: 'John Doe',
     title: 'Company Dot Com',
     text: 'Vestibulum faucibus eget erat eget pretium. Donec commodo convallis ligula.',
-    x: 500,
-    y: 300,
+    x: 480,
+    y: 145,
   },
   {
     avatar: imgApi.avatar[4],
@@ -40,10 +42,11 @@ const testimonialsData = [
     y: 220,
   },
   {
+    avatar: imgApi.avatar[5],
     name: 'John Doe',
     title: 'Company Dot Com',
     text: 'Vestibulum faucibus eget erat eget pretium. Donec commodo convallis ligula.',
-    x: 100,
+    x: 150,
     y: 200,
   },
   {
@@ -55,6 +58,7 @@ const testimonialsData = [
     y: 40,
   },
   {
+    avatar: imgApi.avatar[7],
     name: 'John Doe',
     title: 'Company Dot Com',
     text: 'Vestibulum faucibus eget erat eget pretium. Donec commodo convallis ligula.',
@@ -62,7 +66,7 @@ const testimonialsData = [
     y: 100,
   },
   {
-    avatar: imgApi.avatar[1],
+    avatar: imgApi.avatar[8],
     name: 'John Doe',
     title: 'Company Dot Com',
     text: 'Vestibulum faucibus eget erat eget pretium. Donec commodo convallis ligula.',
@@ -78,6 +82,7 @@ const testimonialsData = [
     y: 150,
   },
   {
+    avatar: imgApi.avatar[10],
     name: 'John Doe',
     title: 'Company Dot Com',
     text: 'Vestibulum faucibus eget erat eget pretium. Donec commodo convallis ligula.',
@@ -85,6 +90,7 @@ const testimonialsData = [
     y: 100,
   },
   {
+    avatar: imgApi.avatar[11],
     name: 'John Doe',
     title: 'Company Dot Com',
     text: 'Vestibulum faucibus eget erat eget pretium. Donec commodo convallis ligula.',
@@ -92,15 +98,15 @@ const testimonialsData = [
     y: 100,
   },
   {
-    avatar: imgApi.avatar[2],
+    avatar: imgApi.avatar[12],
     name: 'John Doe',
     title: 'Company Dot Com',
     text: 'Vestibulum faucibus eget erat eget pretium. Donec commodo convallis ligula.',
     x: 150,
-    y: 300,
+    y: 260,
   },
   {
-    avatar: imgApi.avatar[7],
+    avatar: imgApi.avatar[13],
     name: 'John Doe',
     title: 'Company Dot Com',
     text: 'Vestibulum faucibus eget erat eget pretium. Donec commodo convallis ligula.',
@@ -108,19 +114,20 @@ const testimonialsData = [
     y: 140,
   },
   {
+    avatar: imgApi.avatar[14],
     name: 'John Doe',
     title: 'Company Dot Com',
     text: 'Vestibulum faucibus eget erat eget pretium. Donec commodo convallis ligula.',
-    x: 480,
-    y: 280,
+    x: 482,
+    y: 250,
   },
   {
-    avatar: imgApi.avatar[5],
+    avatar: imgApi.avatar[15],
     name: 'John Doe',
     title: 'Company Dot Com',
     text: 'Vestibulum faucibus eget erat eget pretium. Donec commodo convallis ligula.',
-    x: 300,
-    y: 300,
+    x: 435,
+    y: 210,
   },
 ];
 
