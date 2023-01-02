@@ -1,16 +1,21 @@
 const imgAPI = {
   avatar: [
-    '/images/avatars/pp_girl.svg',
-    '/images/avatars/pp_girl2.svg',
-    '/images/avatars/pp_girl3.svg',
-    '/images/avatars/pp_girl4.svg',
-    '/images/avatars/pp_girl5.svg',
-    '/images/avatars/pp_girl.svg',
-    '/images/avatars/pp_boy.svg',
-    '/images/avatars/pp_boy2.svg',
-    '/images/avatars/pp_boy3.svg',
-    '/images/avatars/pp_boy4.svg',
-    '/images/avatars/pp_boy5.svg'
+    'https://i.pravatar.cc/300/?img=47',
+    'https://i.pravatar.cc/300/?img=1',
+    'https://i.pravatar.cc/300/?img=5',
+    'https://i.pravatar.cc/300/?img=12',
+    'https://i.pravatar.cc/300/?img=8',
+    'https://i.pravatar.cc/300/?img=17',
+    'https://i.pravatar.cc/300/?img=43',
+    'https://i.pravatar.cc/300/?img=53',
+    'https://i.pravatar.cc/300/?img=54',
+    'https://i.pravatar.cc/300/?img=31',
+    'https://i.pravatar.cc/300/?img=49',
+    'https://i.pravatar.cc/300/?img=20',
+    'https://i.pravatar.cc/300/?img=13',
+    'https://i.pravatar.cc/300/?img=25',
+    'https://i.pravatar.cc/300/?img=26',
+    'https://i.pravatar.cc/300/?img=24',
   ],
   photo: [
     'https://via.placeholder.com/675x900/e1ad92/fff',
@@ -44,7 +49,7 @@ const imgAPI = {
     'https://via.placeholder.com/640x400/cc16db/FFFFFF',
     'https://via.placeholder.com/640x960/143277/FFFFFF',
     'https://via.placeholder.com/640x427/4600a5/FFFFFF',
-  ]
+  ],
 };
 
 export default imgAPI;
