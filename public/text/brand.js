@@ -2,9 +2,9 @@ import imgAPI from '~/public/images/imgAPI';
 
 const brand = {
   unisex: {
-    name: 'James Doe',
-    title: '3d Illustrator',
-    desc: 'Iluxi Profile - React Single Landing Page Template',
+    name: 'Yusep',
+    title: 'Front End Engineer',
+    desc: 'Iluxi Profile - Single Landing Page Template',
     prefix: 'Iluxi',
     footerText: 'Iluxi Theme 2022',
     logoText: 'Iluxi Profile',
@@ -13,7 +13,7 @@ const brand = {
     img: '/images/unisex-logo.png',
     avatar: imgAPI.unisex[0],
     cover: imgAPI.unisex[1],
-    notifMsg: 'Donec sit amet nulla sed arcu pulvinar ultricies commodo id ligula.'
+    notifMsg: 'Hallo, Selamat Datang.'
   }
 };
 

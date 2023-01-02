@@ -66,7 +66,7 @@ function BannerNav(props) {
               </Typography>
               <Typography variant="h2" className={text.title}>
                 {t('common:unisex-landing.banner_me')}
-                &nbsp;James,&nbsp;
+                &nbsp;Yusep,&nbsp;
                 {brand.unisex.title}
               </Typography>
               <Hidden smDown>
