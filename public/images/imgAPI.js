@@ -34,6 +34,7 @@ const imgAPI = {
     'https://picsum.photos/id/117/200/300',
   ],
   unisex: [
+    '/images/avatars/IMG_4323.jpg',
     'https://via.placeholder.com/271x352/4600a5/FFFFFF',
     'https://via.placeholder.com/1300x500/2b1477/FFFFFF',
     'https://via.placeholder.com/1300x500/601477/FFFFFF',
