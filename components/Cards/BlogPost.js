@@ -14,6 +14,7 @@ function BlogPost(props) {
     img,
     title,
     desc,
+    link,
     t
   } = props;
 
@@ -27,7 +28,7 @@ function BlogPost(props) {
         <Typography display="block" component="p" className={text.paragraph}>{desc}</Typography>
       </div>
       <Button
-        href="#"
+        href={link}
         color="primary"
         className={classes.readmore}
         classes={{
@@ -45,6 +46,7 @@ BlogPost.propTypes = {
   img: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   desc: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
   t: PropTypes.func.isRequired
 };
 

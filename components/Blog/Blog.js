@@ -17,33 +17,39 @@ import imgApi from '~/public/images/imgAPI';
 const blogData = [
   {
     img: imgApi.photo[0],
-    title: 'Vivamus sit amet interdum elit',
-    desc: 'Ut sed eros finibus, placerat orci id, dapibus mauris. Vestibulum consequat…'
+    title: 'Humas Jabar',
+    desc: 'Wagub Jabar Tinjau Vaksinasi Booster di Stadion Patriot Candrabhaga',
+    linkBlog: 'https://pikobar.jabarprov.go.id/articles/wagub-jabar-tinjau-vaksinasi-booster-di-stadion-patriot-candrabhaga-artcl.kz996rrw3utholnmgn8'
   },
   {
     img: imgApi.photo[1],
-    title: 'Vivamus sit amet interdum elit',
-    desc: 'Ut sed eros finibus, placerat orci id, dapibus mauris. Vestibulum consequat…'
+    title: 'Liputan 6',
+    desc: 'Australia, Kanada Wajibkan Tes COVID-19 bagi Pelaku Perjalanan dari China',
+    linkBlog: 'https://pikobar.jabarprov.go.id/articles/australia-kanada-wajibkan-tes-covid-19-bagi-pelaku-perjalanan-dari-china-artcl.lceioqlg7quv84mko2o'
   },
   {
     img: imgApi.photo[2],
-    title: 'Vivamus sit amet interdum elit',
-    desc: 'Ut sed eros finibus, placerat orci id, dapibus mauris. Vestibulum consequat…'
+    title: 'Humas Jabar',
+    desc: 'Ridwan Kamil Apresiasi Kerja Sama dengan PWNU Jawa Barat Bangun Peradaban Jawa Barat',
+    linkBlog: 'https://jabarprov.go.id/berita/ridwan-kamil-apresiasi-kerja-sama-dengan-pwnu-jawa-barat-bangun-peradaban-jawa-barat-6558'
   },
   {
     img: imgApi.photo[3],
-    title: 'Vivamus sit amet interdum elit',
-    desc: 'Ut sed eros finibus, placerat orci id, dapibus mauris. Vestibulum consequat…'
+    title: 'Admin',
+    desc: 'Kinerja Sektor Jasa Keuangan Jawa Barat yang Stabil dan Semakin Bertumbuh Positif',
+    linkBlog: 'https://jabarprov.go.id/berita/kinerja-sektor-jasa-keuangan-jawa-barat-yang-stabil-dan-semakin-bertumbuh-positif-2899'
   },
   {
     img: imgApi.photo[4],
-    title: 'Vivamus sit amet interdum elit',
-    desc: 'Ut sed eros finibus, placerat orci id, dapibus mauris. Vestibulum consequat…'
+    title: 'Diskominfo',
+    desc: 'Fasilitasi UMKM, Pemdes Wanajaya Gelar Festival Kuliner',
+    linkBlog: 'https://jabarprov.go.id/berita/fasilitasi-umkm-pemdes-wanajaya-gelar-festival-kuliner-8043'
   },
   {
     img: imgApi.photo[5],
-    title: 'Vivamus sit amet interdum elit',
-    desc: 'Ut sed eros finibus, placerat orci id, dapibus mauris. Vestibulum consequat…'
+    title: 'Humas Jabar',
+    desc: 'Gubernur Ridwan Kamil Dampingi Presiden Jokowi Cek Harga Jelang Natal dan Tahun Baru di Pasar Cigombong Bogor',
+    linkBlog: 'https://jabarprov.go.id/berita/gubernur-ridwan-kamil-dampingi-presiden-jokowi-cek-harga-jelang-natal-dan-tahun-baru-di-p-8029'
   },
 ];
 
@@ -101,7 +107,7 @@ function Blog(props) {
         <Typography gutterBottom className={text.paragraph}>
           {t('common:unisex-landing.blog_desc')}
         </Typography>
-        <Button className={classes.link} color="primary" href="#">luxi-theme.blog.com</Button>
+        <Button className={classes.link} color="primary" href="#">maulanayuseph</Button>
       </div>
       <div className={classes.sliderWrap}>
         <div className={classes.carousel}>
@@ -123,6 +129,7 @@ function Blog(props) {
                   img={item.img}
                   title={item.title}
                   desc={item.desc}
+                  link={item.linkBlog}
                 />
               </div>
             ))}
