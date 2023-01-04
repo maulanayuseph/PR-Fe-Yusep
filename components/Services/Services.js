@@ -16,27 +16,27 @@ const services = [
   {
     icon: 'ion-ios-color-wand',
     name: 'UI Interface Design',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    desc: 'Service Working UI Interface Design.'
   },
   {
     icon: 'ion-logo-dribbble',
     name: 'Icon Design',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    desc: 'Service Working Icon Design.'
   },
   {
     icon: 'ion-ios-globe',
     name: 'HTML Prototyping',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    desc: 'Service Working HTML Prototyping.'
   },
   {
     icon: 'ion-ios-camera',
     name: 'Photo Editing',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    desc: 'Service Working Photo Editing.'
   },
   {
     icon: 'ion-ios-snow',
     name: 'Graphic Illustrations',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    desc: 'Service Working Graphic Illustrations.'
   }
 ];
 
