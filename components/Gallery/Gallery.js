@@ -16,65 +16,37 @@ import useStyle from './gallery-style';
 
 const portfolio = [
   {
-    img: imgAPI.unisex[6],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
+    img: imgAPI.unisex[1],
+    title: 'Alexus Porfile',
+    link: 'iluxi',
     size: 'short',
     category: 'cat1'
   },
   {
-    img: imgAPI.unisex[7],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
+    img: imgAPI.unisex[2],
+    title: 'LUDESIGN',
+    link: 'Ludesign',
     size: 'long',
     category: 'cat2'
   },
   {
-    img: imgAPI.unisex[8],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'short',
-    category: 'cat3'
-  },
-  {
-    img: imgAPI.unisex[9],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'long',
-    category: 'cat1'
-  },
-  {
-    img: imgAPI.unisex[10],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
+    img: imgAPI.unisex[3],
+    title: 'HAZEL',
+    link: 'Hazel',
     size: 'short',
     category: 'cat2'
   },
   {
-    img: imgAPI.unisex[11],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'short',
-    category: 'cat3'
-  },
-  {
-    img: imgAPI.unisex[12],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
+    img: imgAPI.unisex[4],
+    title: 'FLOWER',
+    link: 'Flower',
     size: 'short',
     category: 'cat1'
   },
   {
-    img: imgAPI.unisex[14],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
-    size: 'short',
-    category: 'cat2'
-  },
-  {
-    img: imgAPI.unisex[13],
-    title: 'Aenean facilisis vitae purus',
-    link: 'linkofthisitem.com',
+    img: imgAPI.unisex[5],
+    title: 'SPAREPART',
+    link: 'Sparepart',
     size: 'long',
     category: 'cat2'
   },
@@ -161,31 +133,13 @@ function Gallery(props) {
             onClick={() => filterChildren('cat1')}
             className={filter === 'cat1' ? classes.selected : ''}
           >
-            Category 1
+            Landing Page
           </Button>
           <Button
             onClick={() => filterChildren('cat2')}
             className={filter === 'cat2' ? classes.selected : ''}
           >
-            Category 2
-          </Button>
-          <Button
-            onClick={() => filterChildren('cat3')}
-            className={filter === 'cat3' ? classes.selected : ''}
-          >
-            Category 3
-          </Button>
-          <Button
-            onClick={() => filterChildren('cat4')}
-            className={filter === 'cat4' ? classes.selected : ''}
-          >
-            Category 4
-          </Button>
-          <Button
-            onClick={() => filterChildren('cat5')}
-            className={filter === 'cat5' ? classes.selected : ''}
-          >
-            Category 5
+            Website
           </Button>
         </div>
         <Hidden xsDown>

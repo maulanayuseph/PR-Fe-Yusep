@@ -35,6 +35,11 @@ const imgAPI = {
   ],
   unisex: [
     '/images/avatars/IMG_4323.jpg',
+    '/images/alexus.jpg',
+    '/images/jess-bailey-l3N9Q27zULw-unsplash.jpg',
+    '/images/hazel.jpg',
+    '/images/flower.jpg',
+    '/images/sparepart.jpg',
     'https://via.placeholder.com/271x352/4600a5/FFFFFF',
     'https://via.placeholder.com/1300x500/2b1477/FFFFFF',
     'https://via.placeholder.com/1300x500/601477/FFFFFF',
