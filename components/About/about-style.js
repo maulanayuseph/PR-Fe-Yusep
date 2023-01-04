@@ -89,7 +89,6 @@ const aboutStyles = makeStyles(theme => ({
   },
   avatar: {
     width: '278px !important',
-    marginLeft: -45
   },
   photo: {
     position: 'relative',
