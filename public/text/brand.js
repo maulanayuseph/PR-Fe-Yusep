@@ -2,7 +2,7 @@ import imgAPI from '~/public/images/imgAPI';
 
 const brand = {
   unisex: {
-    name: 'Yusep',
+    name: 'John Doe',
     title: 'Front End Engineer',
     desc: 'Iluxi Profile - Single Landing Page Template',
     prefix: 'Iluxi',

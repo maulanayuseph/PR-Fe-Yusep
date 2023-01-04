@@ -2,10 +2,10 @@
 
 Credits:
 - Iluxi Theme
-- @maulanayuseph
+- @John Doe
 
 See the other Design
-https://www.figma.com/@maulanayuseph
+https://www.figma.com/@John Doe
 
 ## Installation
 

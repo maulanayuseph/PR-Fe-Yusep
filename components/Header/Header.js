@@ -207,7 +207,7 @@ function Header(props) {
                       <Typography className={text.paragraph}>
                         {t('common:unisex-landing.footer_hello')}
                         <br />
-                        maulanayuseph
+                        John Doe
                       </Typography>
                     </div>
                   </div>

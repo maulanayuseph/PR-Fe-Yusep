@@ -107,7 +107,7 @@ function Blog(props) {
         <Typography gutterBottom className={text.paragraph}>
           {t('common:unisex-landing.blog_desc')}
         </Typography>
-        <Button className={classes.link} color="primary" href="#">maulanayuseph</Button>
+        <Button className={classes.link} color="primary" href="#">John Doe</Button>
       </div>
       <div className={classes.sliderWrap}>
         <div className={classes.carousel}>
