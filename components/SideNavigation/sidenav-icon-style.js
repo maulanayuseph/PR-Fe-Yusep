@@ -40,7 +40,6 @@ const sideNavIconStyles = makeStyles(theme => ({
     position: 'relative',
     color: theme.palette.common.white,
     visibility: 'hidden',
-    position: 'absolute',
     left: -4,
     background: 'rgba(0, 0, 0, 0.8)',
     textTransform: 'capitalize',

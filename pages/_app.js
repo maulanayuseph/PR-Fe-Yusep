@@ -16,7 +16,7 @@ import LoadingBar from 'react-top-loading-bar';
 import { i18n, appWithTranslation } from '../i18n';
 import appTheme from '../theme/appTheme';
 /* import css vendors */
-import 'react-image-lightbox/style.css'; 
+import 'react-image-lightbox/style.css';
 import '~/vendors/hamburger-menu.css';
 import 'animate.css/animate.css';
 import '../vendors/top-loading-bar.css';

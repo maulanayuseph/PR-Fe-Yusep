@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
+// eslint-disable-next-line no-unused-vars
 import Container from '@material-ui/core/Container';
 import Hidden from '@material-ui/core/Hidden';
 import Grid from '@material-ui/core/Grid';
@@ -27,6 +28,7 @@ function BannerNav(props) {
   const classes = useStyles();
   const [bannerHero] = useState('animation');
 
+  // eslint-disable-next-line no-unused-vars
   const isDesktop = useMediaQuery(theme.breakpoints.up('lg'));
   const { t } = props;
   const {

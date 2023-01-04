@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import Hidden from '@material-ui/core/Hidden';
 import Carousel from 'react-slick';
+// eslint-disable-next-line no-unused-vars
 import clsx from 'clsx';
 import imgAPI from '~/public/images/imgAPI';
 import { withTranslation } from '~/i18n';
@@ -56,6 +57,7 @@ function Gallery(props) {
   const classes = useStyle();
   const { t } = props;
   const [data, setData] = useState([]);
+  // eslint-disable-next-line no-unused-vars
   const [isLoaded, setLoaded] = useState(true);
   const [filter, setFilter] = useState('all');
 
