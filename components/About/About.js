@@ -70,7 +70,7 @@ function About(props) {
               </Hidden>
               <Paper className={classes.photo}>
                 <figure>
-                  <img src={brand.unisex.avatar} height="335px" width="300px" alt="avatar" />
+                  <img src={brand.unisex.avatar} className={classes.avatar} alt="avatar" />
                 </figure>
                 <span className={classes.frame} />
               </Paper>
