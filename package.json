@@ -18,7 +18,7 @@
 		"build": "cross-env NODE_ENV=production next build",
 		"start": "cross-env NODE_ENV=production node index.js",
 		"export": "next export",
-		"now-build": "next build && next export -o dist"
+		"now-build": "next build && next export -o dist && node index.js"
 	},
 	"dependencies": {
 		"@babel/core": "^7.16.5",
