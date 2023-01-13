@@ -1,4 +1,7 @@
-# `Iluxi Theme`
+# `Personal Website`
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e76462d1-16ec-4526-aa40-e77a86ad0c5f/deploy-status)](https://app.netlify.com/sites/maulanayuseph-iluxi/deploys)
+
+# Iluxi Theme
 
 Credits:
 - Iluxi Theme
@@ -31,5 +34,3 @@ npm run build
 ```
 npm start
 ```
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e76462d1-16ec-4526-aa40-e77a86ad0c5f/deploy-status)](https://app.netlify.com/sites/maulanayuseph-iluxi/deploys)
