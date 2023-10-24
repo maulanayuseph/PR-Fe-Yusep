@@ -18,16 +18,4 @@ module.exports = withImages({
       ? process.env.LOCALE_SUBPATHS
       : 'none',
   },
-  // eslint-disable-next-line no-unused-vars
-  // webpack: (config, options) => {
-  //   true,
-  //   config.plugins.push(
-  //     //      new ESLintPlugin({
-  //     //        exclude: ['node_modules']
-  //     //      })
-  //   );
-  //   // eslint-disable-next-line no-param-reassign
-  //   config.node = {};
-  //   return config;
-  // },
 });
