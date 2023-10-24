@@ -12,8 +12,6 @@ import Timeline from '../components/Timeline';
 import Counter from '../components/Counter';
 import Services from '../components/Services';
 import Gallery from '../components/Gallery';
-import Testimonials from '../components/Testimonials';
-import Blog from '../components/Blog';
 import Footer from '../components/Footer';
 import PageNav from '../components/PageNav';
 import Decoration from '../components/Parallax/Decoration';
@@ -74,7 +72,8 @@ function Landing(props) {
       <Head>
         <title>
           { brand.unisex.name }
-          &nbsp; - Profile
+          &nbsp;-&nbsp;
+          { brand.unisex.logoText }
         </title>
       </Head>
       <CssBaseline />
@@ -105,16 +104,10 @@ function Landing(props) {
               <Gallery />
             </section>
           </div>
-          <section id="testimonials">
-            <Testimonials />
-          </section>
           <div className={classes.parallaxWrap}>
             <div className={classes.bottomDeco}>
               <Decoration />
             </div>
-            <section id="blog" className={classes.spaceTopShort}>
-              <Blog />
-            </section>
             <section id="contact" className={classes.spaceTop}>
               <Footer />
             </section>

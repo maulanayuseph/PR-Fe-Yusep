@@ -31,6 +31,9 @@ function Form(props) {
 
   const handleSubmit = () => {
     setNotif(true);
+    const { message, phone } = values;
+    const url = `https://api.whatsapp.com/send/?phone=${encodeURIComponent(phone)}&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
+    window.location.href = url;
   };
 
   const handleClose = () => {
@@ -75,12 +78,12 @@ function Form(props) {
                 />
                 <TextValidator
                   className={classes.input}
-                  label={t('common:unisex-landing.form_email')}
-                  onChange={handleChange('email')}
-                  name="Email"
-                  value={values.email}
-                  validators={['required', 'isEmail']}
-                  errorMessages={['this field is required', 'email is not valid']}
+                  label={t('common:unisex-landing.form_hp')}
+                  onChange={handleChange('phone')}
+                  name="Phone"
+                  value={values.phone}
+                  validators={['required']}
+                  errorMessages={['this field is required', 'phone is not empty']}
                 />
                 <TextValidator
                   multiline

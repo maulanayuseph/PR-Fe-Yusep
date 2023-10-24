@@ -1,7 +1,7 @@
 {
-	"name": "iluxi-theme",
+	"name": "maulanayuseph-iluxi-theme",
 	"version": "1.0.0",
-	"description": "Iluxi Profile and Portfolio Theme",
+	"description": "Portofolio maulanayuseph",
 	"keywords": [
 		"profile",
 		"portfolio",
@@ -9,8 +9,8 @@
 		"personal",
 		"showcase"
 	],
-	"author": "John Doe",
-	"license": "iluxitheme",
+	"author": "maulanayuseph",
+	"license": "https://github.com/maulanayuseph",
 	"main": "index.js",
 	"private": true,
 	"scripts": {
