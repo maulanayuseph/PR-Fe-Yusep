@@ -23,7 +23,7 @@
   "prt": "󠁥󠁮󠁧󠁿Português",
   "ind": "󠁥󠁮󠁧󠁿Bahasa Indonesia",
   "ara": "󠁥󠁮󠁧󠁿العربيّة",
-  "notif_msg": "Ini adalah contoh pesan yang biasa digunakan untuk informasi penting kepada pengunjung atau pengguna. Silahkan klik tombol disamping untuk menutup pesan ini.",
+  "notif_msg": "Selamat Datang di Website Portofolio maulanayuseph, Jika ada pertanyaan silahkan menghubungi nomor yang tercantum di kontak saya.",
   "unisex-landing": {
     "header_language": "bahasa",
     "header_theme": "Mode tema",
@@ -33,12 +33,12 @@
     "header_about": "tentang",
     "header_services": "jasa",
     "header_my-work": "karya",
-    "header_testimonials": "testimonial",
-    "header_blog": "blog",
+    "headerx_testimonials": "testimonial",
+    "headerx_blog": "blog",
     "header_contact": "kontak",
     "banner_greeting": "Halo Dunia",
     "banner_me": "Saya",
-    "banner_desc": "Saya membuat desain seluler atau web UI yang efisien serta riset UX untuk memastikan bahwa saya mendapatkan apa yang dibutuhkan orang dan strategi untuk desain interaksi.",
+    "banner_desc": "Principal Frontend Engineer adalah tingkat senior dalam pengembangan perangkat lunak, yang secara khusus berfokus pada pengembangan web frontend. Peran ini biasanya melibatkan keahlian tingkat tinggi dalam teknologi front-end, kerangka kerja, dan best practices.",
     "timeline_experience": "PENGALAMAN KERJA",
     "timeline_skill": "KETERAMPILAN DAN KEAHLIAN",
     "counter_completed": "Project Selesai",
@@ -64,6 +64,7 @@
     "form_name": "Siapa nama Anda? *",
     "form_email": "Apa itu email Anda? *",
     "form_message": "Tulis pesan Anda di sini",
-    "form_send": "Kirim Pesan"
+    "form_send": "Kirim Pesan",
+    "form_hp": "Berapa nomor handphone anda? *"
   }
 }

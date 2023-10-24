@@ -6,7 +6,10 @@ import { useTheme } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Hidden from '@material-ui/core/Hidden';
 import Grid from '@material-ui/core/Grid';
+// eslint-disable-next-line no-unused-vars
 import Button from '@material-ui/core/Button';
+import Link from 'next/link';
+import clsx from 'clsx';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import SideNavigation from '../SideNavigation';
@@ -67,8 +70,6 @@ function BannerNav(props) {
                 ,
               </Typography>
               <Typography variant="h2" className={text.title}>
-                {t('common:unisex-landing.banner_me')}
-                &nbsp;John,&nbsp;
                 {brand.unisex.title}
               </Typography>
               <Hidden smDown>
@@ -76,19 +77,21 @@ function BannerNav(props) {
                   {t('common:unisex-landing.banner_desc')}
                 </Typography>
                 <div className={classes.socmed}>
-                  <Button variant="outlined" className={classes.download} component="a">Download CV</Button>
-                  <IconButton aria-label="Delete" className={classes.margin} size="small">
-                    <i className="ion-logo-facebook" />
-                  </IconButton>
-                  <IconButton aria-label="Delete" className={classes.margin} size="small">
-                    <i className="ion-logo-twitter" />
-                  </IconButton>
-                  <IconButton aria-label="Delete" className={classes.margin} size="small">
-                    <i className="ion-logo-instagram" />
-                  </IconButton>
-                  <IconButton aria-label="Delete" className={classes.margin} size="small">
-                    <i className="ion-logo-linkedin" />
-                  </IconButton>
+                  <Link href={brand.unisex.facebook}>
+                    <IconButton aria-label="Delete" className={classes.margin} size="small">
+                      <i className={clsx('ion-logo-facebook', classes.fb)} />
+                    </IconButton>
+                  </Link>
+                  <Link href={brand.unisex.instagram}>
+                    <IconButton aria-label="Delete" className={classes.margin} size="small">
+                      <i className={clsx('ion-logo-instagram', classes.ig)} />
+                    </IconButton>
+                  </Link>
+                  <Link href={brand.unisex.linkedin}>
+                    <IconButton aria-label="Delete" className={classes.margin} size="small">
+                      <i className={clsx('ion-logo-linkedin', classes.in)} />
+                    </IconButton>
+                  </Link>
                 </div>
               </Hidden>
             </div>

@@ -73,8 +73,6 @@ function Header(props) {
     createData(navMenu[1], '#' + navMenu[1], -100),
     createData(navMenu[2], '#' + navMenu[2]),
     createData(navMenu[3], '#' + navMenu[3], -40),
-    createData(navMenu[4], '#' + navMenu[4], -40),
-    createData(navMenu[5], '#' + navMenu[5], -40),
   ]);
   const [openDrawer, setOpenDrawer] = useState(false);
   const handleOpenDrawer = () => {
@@ -182,32 +180,34 @@ function Header(props) {
                         {brand.unisex.title}
                       </Typography>
                     </div>
-                    <Button variant="outlined" color="primary" className={classes.download} component="a">Download CV</Button>
                     <div className={classes.socmed}>
-                      <IconButton aria-label="Delete" className={classes.margin} size="small">
-                        <i className={clsx('ion-logo-facebook', classes.fb)} />
-                      </IconButton>
-                      <IconButton aria-label="Delete" className={classes.margin} size="small">
-                        <i className={clsx('ion-logo-instagram', classes.ig)} />
-                      </IconButton>
-                      <IconButton aria-label="Delete" className={classes.margin} size="small">
-                        <i className={clsx('ion-logo-twitter', classes.tw)} />
-                      </IconButton>
-                      <IconButton aria-label="Delete" className={classes.margin} size="small">
-                        <i className={clsx('ion-logo-linkedin', classes.in)} />
-                      </IconButton>
+                      <Link href={brand.unisex.facebook}>
+                        <IconButton aria-label="Delete" className={classes.margin} size="small">
+                          <i className={clsx('ion-logo-facebook', classes.fb)} />
+                        </IconButton>
+                      </Link>
+                      <Link href={brand.unisex.instagram}>
+                        <IconButton aria-label="Delete" className={classes.margin} size="small">
+                          <i className={clsx('ion-logo-instagram', classes.ig)} />
+                        </IconButton>
+                      </Link>
+                      <Link href={brand.unisex.linkedin}>
+                        <IconButton aria-label="Delete" className={classes.margin} size="small">
+                          <i className={clsx('ion-logo-linkedin', classes.in)} />
+                        </IconButton>
+                      </Link>
                     </div>
                     <div className={classes.contact}>
                       <Typography className={text.paragraph}>
                         {t('common:unisex-landing.footer_contact')}
                         <br />
-                        +12 345 678 90
+                        {brand.unisex.noHP}
                       </Typography>
                       <Divider className={classes.divider} />
                       <Typography className={text.paragraph}>
                         {t('common:unisex-landing.footer_hello')}
                         <br />
-                        John Doe
+                        {brand.unisex.prefix}
                       </Typography>
                     </div>
                   </div>

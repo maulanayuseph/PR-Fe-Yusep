@@ -7,12 +7,12 @@
   "header_about": "about",
   "header_services": "services",
   "header_my-work": "my work",
-  "header_testimonials": "testimonials",
-  "header_blog": "blog",
+  "headerx_testimonials": "testimonials",
+  "headerx_blog": "blog",
   "header_contact": "contact",
   "banner_greeting": "Hello World",
   "banner_me": "I am",
-  "banner_desc": "I create an efficient UI mobile or web design also UX research to make sure that I get what people needs and strategy for interaction design. ",
+  "banner_desc": "A Principal Frontend Engineer is a senior-level role in software development, specifically focused on frontend web development. This role typically involves a high level of expertise in front-end technologies, frameworks, and best practices.",
   "timeline_experience": "WORK EXPERIENCE",
   "timeline_skill": "SKILL AND EXPERTISE",
   "counter_completed": "Completed Project",
@@ -38,5 +38,6 @@
   "form_name": "What is your name? *",
   "form_email": "What it your email? *",
   "form_message": "Write your message here",
-  "form_send": "Send Message"
+  "form_send": "Send Message",
+  "form_hp": "What is your number phone? *"
 }
