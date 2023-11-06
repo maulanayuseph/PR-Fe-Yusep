@@ -4,6 +4,7 @@ import Head from 'next/head';
 import { makeStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Hidden from '@material-ui/core/Hidden';
+// eslint-disable-next-line no-unused-vars
 import clsx from 'clsx';
 import Header from '../components/Header';
 import BannerNav from '../components/BannerNav';
@@ -11,6 +12,7 @@ import About from '../components/About';
 import Timeline from '../components/Timeline';
 import Counter from '../components/Counter';
 import Services from '../components/Services';
+// eslint-disable-next-line no-unused-vars
 import Gallery from '../components/Gallery';
 import Footer from '../components/Footer';
 import PageNav from '../components/PageNav';
