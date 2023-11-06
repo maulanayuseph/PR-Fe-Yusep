@@ -43,7 +43,8 @@ function Counter(props) {
                   <div className={classes.text}>
                     <i className="ion-ios-briefcase-outline" />
                     <Typography variant="h4" className={text.title}>
-                      {countup(123, play)}
+                      {'>'}
+                      {countup(50, play)}
                     </Typography>
                   </div>
                   <Typography variant="h6" className={text.subtitle2}>
@@ -57,7 +58,7 @@ function Counter(props) {
                 <div className={classes.text}>
                   <i className="ion-ios-time-outline" />
                   <Typography variant="h4" className={text.title}>
-                    {countup(4567, play)}
+                    {countup(9, play)}
                   </Typography>
                 </div>
                 <Typography variant="h6" className={text.subtitle2}>
@@ -70,7 +71,8 @@ function Counter(props) {
                 <div className={classes.text}>
                   <i className="ion-ios-heart-outline" />
                   <Typography variant="h4" className={text.title}>
-                    {countup(89, play)}
+                    {'>'}
+                    {countup(100, play)}
                   </Typography>
                 </div>
                 <Typography variant="h6" className={text.subtitle2}>
