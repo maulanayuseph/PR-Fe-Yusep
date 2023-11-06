@@ -52,28 +52,14 @@ function Timeline(props) {
                     <ScrollAnimation
                       animateOnce
                       animateIn="fadeInLeftShort"
-                      delay={200}
-                      duration={0.3}
-                    >
-                      <div>
-                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Creative Director</Typography>
-                        <Typography gutterBottom>at Fourth Company</Typography>
-                        <Typography className={classes.time}>2015 - Present</Typography>
-                      </div>
-                    </ScrollAnimation>
-                  </li>
-                  <li>
-                    <ScrollAnimation
-                      animateOnce
-                      animateIn="fadeInLeftShort"
                       offset={100}
                       delay={300}
                       duration={0.3}
                     >
                       <div>
-                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Senior UI/UX Designer</Typography>
-                        <Typography gutterBottom>at Third Company</Typography>
-                        <Typography className={classes.time}>2013 - 2015</Typography>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Frontend Engineer</Typography>
+                        <Typography gutterBottom>at maulanayuseph.com</Typography>
+                        <Typography className={classes.time}>2013 - Present</Typography>
                       </div>
                     </ScrollAnimation>
                   </li>
@@ -81,14 +67,13 @@ function Timeline(props) {
                     <ScrollAnimation
                       animateOnce
                       animateIn="fadeInLeftShort"
-                      offset={200}
-                      delay={400}
+                      delay={200}
                       duration={0.3}
                     >
                       <div>
-                        <Typography variant="h3" gutterBottom className={text.subtitle2}>UI/UX Designer</Typography>
-                        <Typography gutterBottom>at Second Company</Typography>
-                        <Typography className={classes.time}>2012 - 2013</Typography>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Frontend Engineer</Typography>
+                        <Typography gutterBottom>at UPTD PLDDIG JABAR DIGITAL SERVICES</Typography>
+                        <Typography className={classes.time}>2021 - 2023</Typography>
                       </div>
                     </ScrollAnimation>
                   </li>
@@ -101,9 +86,24 @@ function Timeline(props) {
                       duration={0.3}
                     >
                       <div>
-                        <Typography variant="h3" gutterBottom className={text.subtitle2}>UI/UX Designer</Typography>
-                        <Typography gutterBottom>at First Company</Typography>
-                        <Typography className={classes.time}>2009 - 2011</Typography>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Frontend Engineer</Typography>
+                        <Typography gutterBottom>at Kerjasama Untuk Negeri</Typography>
+                        <Typography className={classes.time}>2020</Typography>
+                      </div>
+                    </ScrollAnimation>
+                  </li>
+                  <li>
+                    <ScrollAnimation
+                      animateOnce
+                      animateIn="fadeInLeftShort"
+                      offset={200}
+                      delay={400}
+                      duration={0.3}
+                    >
+                      <div>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Frontend Engineer</Typography>
+                        <Typography gutterBottom>at Digital Muslim Global</Typography>
+                        <Typography className={classes.time}>2019</Typography>
                       </div>
                     </ScrollAnimation>
                   </li>
@@ -126,11 +126,11 @@ function Timeline(props) {
                     <li>
                       <div className={classes.textIcon}>
                         <i className="ion-ios-color-wand" />
-                        <Typography variant="h6" className={text.subtitle2}>UI Interface Design</Typography>
+                        <Typography variant="h6" className={text.subtitle2}>Website Development</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
-                        value={play ? 80 : 0}
+                        value={play ? 95 : 0}
                         classes={{
                           root: classes.progressBg,
                           bar: classes.bar
@@ -140,11 +140,11 @@ function Timeline(props) {
                     <li>
                       <div className={classes.textIcon}>
                         <i className="ion-logo-dribbble" />
-                        <Typography variant="h6" className={text.subtitle2}>Icon Design</Typography>
+                        <Typography variant="h6" className={text.subtitle2}>UI Interface Design</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
-                        value={play ? 70 : 0}
+                        value={play ? 90 : 0}
                         classes={{
                           root: classes.progressBg,
                           bar: classes.bar
@@ -158,7 +158,7 @@ function Timeline(props) {
                       </div>
                       <LinearProgress
                         variant="determinate"
-                        value={play ? 60 : 0}
+                        value={play ? 95 : 0}
                         classes={{
                           root: classes.progressBg,
                           bar: classes.bar
@@ -167,12 +167,12 @@ function Timeline(props) {
                     </li>
                     <li>
                       <div className={classes.textIcon}>
-                        <i className="ion-ios-camera" />
-                        <Typography variant="h6" className={text.subtitle2}>Photo Editing</Typography>
+                        <i className="ion-ios-analytics" />
+                        <Typography variant="h6" className={text.subtitle2}>Website Enhancement / Editing</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
-                        value={play ? 90 : 0}
+                        value={play ? 95 : 0}
                         classes={{
                           root: classes.progressBg,
                           bar: classes.bar
@@ -182,11 +182,11 @@ function Timeline(props) {
                     <li>
                       <div className={classes.textIcon}>
                         <i className="ion-ios-snow" />
-                        <Typography variant="h6" className={text.subtitle2}>Graphic Illustrations</Typography>
+                        <Typography variant="h6" className={text.subtitle2}>Website Maintenance</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
-                        value={play ? 80 : 0}
+                        value={play ? 95 : 0}
                         classes={{
                           root: classes.progressBg,
                           bar: classes.bar

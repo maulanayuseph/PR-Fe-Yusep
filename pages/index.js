@@ -100,9 +100,6 @@ function Landing(props) {
             <section id="services">
               <Services />
             </section>
-            <section id="my-work" className={clsx(classes.spaceTopShort, classes.spaceBottomShort)}>
-              <Gallery />
-            </section>
           </div>
           <div className={classes.parallaxWrap}>
             <div className={classes.bottomDeco}>

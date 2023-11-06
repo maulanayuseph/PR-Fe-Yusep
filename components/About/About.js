@@ -29,24 +29,21 @@ function About(props) {
               <div className={classes.reward}>
                 <div className={classes.item}>
                   <figure>
-                    <img src="/images/unisex/reward1.svg" alt="badge" />
+                    <img src="/images/unisex/icons8-github.svg" alt="badge" />
                   </figure>
-                  <Typography component="p" className={text.paragraph}>Special Mention</Typography>
-                  <Typography variant="h5" className={text.subtitle}>Awards</Typography>
+                  <Typography variant="h5" className={text.subtitle}>Github</Typography>
                 </div>
                 <div className={classes.item}>
                   <figure>
-                    <img src="/images/unisex/reward2.svg" alt="badge" />
+                    <img src="/images/unisex/icons8-react.svg" alt="badge" />
                   </figure>
-                  <Typography component="p" className={text.paragraph}>100k videos</Typography>
-                  <Typography variant="h5" className={text.subtitle}>Subscriber</Typography>
+                  <Typography variant="h5" className={text.subtitle}>React.js</Typography>
                 </div>
                 <div className={classes.item}>
                   <figure>
-                    <img src="/images/unisex/reward3.svg" alt="badge" />
+                    <img src="/images/unisex/icons8-vue-js.svg" alt="badge" />
                   </figure>
-                  <Typography component="p" className={text.paragraph}>Best Filmography</Typography>
-                  <Typography variant="h5" className={text.subtitle}>Footage</Typography>
+                  <Typography variant="h5" className={text.subtitle}>Vue.js</Typography>
                 </div>
               </div>
               <Hidden mdUp>

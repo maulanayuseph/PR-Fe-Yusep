@@ -15,13 +15,13 @@ import useStyle from './services-style';
 const services = [
   {
     icon: 'ion-ios-color-wand',
-    name: 'UI Interface Design',
-    desc: 'Service Working UI Interface Design.'
+    name: 'Website Development',
+    desc: 'Service Working Create a New Website.'
   },
   {
     icon: 'ion-logo-dribbble',
-    name: 'Icon Design',
-    desc: 'Service Working Icon Design.'
+    name: 'UI Interface Design',
+    desc: 'Service Working UI Interface Design.'
   },
   {
     icon: 'ion-ios-globe',
@@ -29,14 +29,14 @@ const services = [
     desc: 'Service Working HTML Prototyping.'
   },
   {
-    icon: 'ion-ios-camera',
-    name: 'Photo Editing',
-    desc: 'Service Working Photo Editing.'
+    icon: 'ion-ios-analytics',
+    name: 'Website Enhancement',
+    desc: 'Service Working to Enhancement Website.'
   },
   {
     icon: 'ion-ios-snow',
-    name: 'Graphic Illustrations',
-    desc: 'Service Working Graphic Illustrations.'
+    name: 'Website Maintenance',
+    desc: 'Service Working Maintenance Website Existing.'
   }
 ];
 
