@@ -29,8 +29,7 @@ function SideNavigation(props) {
   const [menuList] = useState([
     createData(navMenu[0], '#' + navMenu[0], 'ion-ios-contact', 160),
     createData(navMenu[1], '#' + navMenu[1], 'ion-ios-add-circle'),
-    createData(navMenu[2], '#' + navMenu[2], 'ion-ios-keypad'),
-    createData(navMenu[3], '#' + navMenu[3], 'ion-ios-mail'),
+    createData(navMenu[2], '#' + navMenu[2], 'ion-ios-mail'),
   ]);
   return (
     <div className={classes.navigation}>
